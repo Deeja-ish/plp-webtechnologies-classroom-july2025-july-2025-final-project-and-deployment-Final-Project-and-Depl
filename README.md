@@ -1,8 +1,4 @@
-This is a crucial file for your portfolio\! A well-written `README.md` shows attention to detail and communicates your project's value and technical features to potential employers or collaborators.
 
-Here is a complete, professional `README.md` template based on the "Craftsy" project we developed:
-
-```markdown
 # 🧶 Craftsy - Artisan Goods E-commerce Showcase
 
 ## 🌟 Project Overview
@@ -82,4 +78,3 @@ Potential improvements and features that could be added in the future:
 * **Khadija ismail Goni**
 * **LinkedIn:** https://www.linkedin.com/in/khadija-ismail-211223293/
 * **GitHub:** https://github.com/deeja-ish
-````

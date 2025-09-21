@@ -64,7 +64,6 @@ nav ul li a{
 
 .nav_link.active_link {
     color: #FF7043;
-    border-bottom: 2px solid #FF7043;
     padding-bottom: 3px;
 }
 

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftsy | Get In Touch</title>
+    <meta name="description" content="Contact Craftsy for customer support, artisan inquiries, or business partnership opportunities.">
+    <script src="https://kit.fontawesome.com/ab2164bc4f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles.css"> 
+</head>
+<body>
+
+    <header class="header">
+        <h1><a href="index.html" class="logo">Craftsy</a></h1>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="about.html" class="nav_link">About</a></li>
+                <li class="nav_item"><a href="products.html" class="nav_link">Products</a></li>
+                <li class="nav_item"><a href="contact.html" class="nav_link active_link">Contact</a></li> 
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero_about container hero_contact"> 
+            <div class="hero_content">
+                <h1>We'd Love to Hear From You</h1>
+                <p>Reach out to our team with any questions about our products, artisans, or partnerships.</p>
+            </div>
+        </section>
+
+        <section class="contact_content container">
+            
+            <div class="contact_form_wrapper">
+                <h2>Send Us a Message</h2>
+                <form class="contact_form" id="contact_form">
+                    <div class="form_group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                          <div class="error_message" id="nameError"></div>
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required required placeholder="you@example.com">
+                        <div class="error_message" id="emailError"></div>
+                    </div>
+                    <div class="form_group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" placeholder="What's your inquiry about?">
+                        <div class="error_message" id="subjectError"></div>
+                    </div>
+                    <div class="form_group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="I'd like to ask about..."></textarea>
+                        <div class="error_message" id="messageError"></div>
+                    </div>
+                    <button type="submit" class="button form_submit_button">Submit Inquiry</button>
+                </form>
+            </div>
+
+            <div class="contact_info">
+                <h2>Our Details</h2>
+                <div class="info_card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Visit Us</h3>
+                    <p>H13/139 Estern Bypass, Ado Gaya Road<br>NO 54321</p>
+                </div>
+
+                <div class="info_card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>support@craftsy.com<br>partnerships@craftsy.com</p>
+                </div>
+                
+                <div class="info_card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Us</h3>
+                    <p>+234 7809764322<br>Mon - Fri WAT</p>
+                </div>
+                
+                <div class="social_links_contact">
+                    <h3>Follow Us</h3>
+                    <a href="https://x.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.pinterest.com/"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="quick_links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="quick_links">
+                <h3>Help & Info</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                </ul>
+            </div>
+            <div class="media_links">
+                <h3>Socials</h3>
+                <a href="https://x.com/"><i class="fab fa-twitter fa-2x"></i>Twitter</a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i>Instagram</a>
+                <a href="https://www.pinterest.com/"><i class="fab fa-pinterest fa-2x"></i>Pintrest</a>
+            </div>
+        </div>
+        <div class="copyright">
+           <p>&copy; 2025 Craftsy. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="src/script.js"></script>
+</body>
+</html>
